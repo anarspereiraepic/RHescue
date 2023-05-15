@@ -90,7 +90,7 @@ def getFolderPath():
 
 def progress_step(step):
     progress['value'] += step
-    Label(root, text=str(progress['value']) + '%', foreground='black').place(x=875, y=603)
+    Label(root, text=str(progress['value']) + '%', foreground='black').place(x=875, y=603) 
 
 
 #######################################################################################################################################
